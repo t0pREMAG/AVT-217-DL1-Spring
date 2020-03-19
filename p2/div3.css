@@ -104,6 +104,7 @@ h2{
 	margin-top: 0px;
 	margin-bottom: 10px;
 	text-align: center;
+	font-family: 'Righteous', cursive;
 		
 }
 
@@ -112,6 +113,7 @@ p{
 }
 small{
 	font-size: 14px;
+	font-family: 'Orbitron', sans-serif;
 }
 .logoarea
 {
