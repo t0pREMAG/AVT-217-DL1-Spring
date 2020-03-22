@@ -164,3 +164,16 @@ small{
 	margin: auto
 	
 }
+.social
+{
+	background-image: url(img/social1.png); 
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 24;
+	border-top: #D9D5D5 1px solid;
+	padding-top: 150px;
+	float: right;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin: auto
+}
