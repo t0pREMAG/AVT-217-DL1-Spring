@@ -59,7 +59,9 @@ table {
 	margin: 0 auto;
 }
 header{
+	background-image: url(img/homemain.png);
 	width:960px;
+	height: 165px;
 }
 main{
 	width: 960px;
@@ -82,15 +84,46 @@ footer{
 }
 
 .column{
+	background-image: url(img/burger.jpg);
 	width:220px;
+	height: 520px;
 	margin: 0px 10px;
 	margin-top: 50px;
 	float:left;
+	
+}
+.column2{
+	background-image: url(img/cheers.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column3{
+	background-image: url(img/maps.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column4{
+	background-image: url(img/togo.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
 }
 .column1
 {
 	width:720px;
 	float: right;
+	
 }
 .order
 {	
@@ -99,9 +132,11 @@ footer{
 }
 
 h2{
-	font-size: 17px;
+	font-size: 22px;
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-family: 'Righteous', cursive;
@@ -116,11 +151,16 @@ small{
 	font-family: 'Orbitron', sans-serif;
 }
 .logoarea
-{
-	width: 960px;
+{	
+	background-image: url(img/logo.png);
+	
+	width: 343px;
+	height: 157;
 	border-top: #D9D5D5 1px solid;
-	padding-top: 25px;
+	padding-top: 150px;
+	float: left;
 	padding-left: 0px;
 	margin-bottom: 0px;
 	margin: auto
+	
 }
