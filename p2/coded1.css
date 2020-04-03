@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	
+}
+ol, ul {
+	list-style: circle;
+	font-size: 14px;
+	color: white;
+	
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	text-align: left;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+#wrapper{
+	width:960px;
+	background-color: rgba(255,255,255,0.4);
+	overflow: hidden;
+	margin: 0 auto;
+}
+header{
+	background-image: url(img/homemain.png);
+	width:960px;
+	height: 165px;
+}
+main{
+	width: 960px;
+	margin-bottom: 10px;
+	float: left;
+	border-top: #D9D5D5 1px solid;
+	padding-top: 10px;
+	margin-top: 15px;
+	
+}
+footer{
+	width:960px;
+	float:left;
+	border-top: #D9D5D5 1px solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	background-color: burlywood;
+	background-image: url(img/fire.jpg);
+	background-position: 60% 34%;
+}
+
+.column{
+	background-image: url(img/burger.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column2{
+	background-image: url(img/cheers.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column3{
+	background-image: url(img/maps.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column4{
+	background-image: url(img/togo.jpg);
+	width:220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+.column5{
+	background-image: url(img/home.png);
+	width: 220px;
+	height: 520px;
+	margin: 0px 10px;
+	margin-top: 50px;
+	float:left;
+	
+}
+#homepagelink{
+	background-image: url(homepagefirstcoded.html);
+	display: block;
+	width: 220px;
+	height: 480px;
+	
+	margin-top: 0px;
+	float:left;
+	opacity: 0;
+}
+#menupagelink{
+	background-image: url(menusecondcoded.html);
+	display: block;
+	width: 220px;
+	height: 480px;
+	
+	margin-top: 0px;
+	float:left;
+	opacity: 0;
+}
+.column1{
+	background-image: url("img/burger.jpg"), url("img/wood.jpg");
+	width: 680px;
+	height: 520px;
+	margin: 0px 20px;
+	margin-top: 50px;
+	float:right;
+	background-repeat: no-repeat, no-repeat;
+	background-position: right, right;
+	
+}
+.order
+{	
+	
+	width:220;
+	float: right;
+}
+
+h2{
+	font-size: 19px;
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+		
+}
+h1{
+	font-size: 17px;
+	color: red;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	text-align: left;
+	font-family: 'Righteous', cursive;
+}
+h3{
+	font-size: 10px;
+	font-family: 'Righteous', cursive;
+	margin-left: 10px;
+	color:white;
+}
+
+p{
+	font-size: 13.5px;
+	color: white;
+	
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	text-align: left;
+}
+small{
+	font-size: 14px;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.social
+{
+	background-image: url(img/social1.png); 
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 24;
+	border-top: #D9D5D5 1px solid;
+	padding-top: 150px;
+	float: right;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin: auto
+}
