@@ -75,9 +75,8 @@ img{
 	border: solid;
 	border-color: black;
 	transition-duration: 0.3s;
-	
-}
-
+	max-height: 200px;
+	}
 .button1{
 	float: center;
 	display: inline-block;
@@ -203,4 +202,13 @@ p{
 	float: center;
 }
 
+
+embed{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-content: center;
+	alignment-baseline: center;
+}
 /* HTML5 display-role reset for older browsers */
